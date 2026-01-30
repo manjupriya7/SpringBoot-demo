@@ -39,6 +39,7 @@ public class UserService {
             userToSave.setName(user.getName());
             userToSave.setEmail(user.getEmail());
             userToSave.setBalance(user.getBalance());
+            System.out.println("hey user");
 
 
             /*userEventProducer.sendUserEvent(
